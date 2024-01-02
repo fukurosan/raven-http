@@ -1,6 +1,6 @@
 # Raven HTTP
 
-Example of a nodejs http server with some basic abstractions built without dependencies.
+Example of a nodejs http server with some basic abstractions built without dependencies apart from a minimal ts setup.
 
 I made this just for fun one afternoon, so take it for what it is!
 
