@@ -1,0 +1,17 @@
+{
+  "name": "raven-http",
+  "version": "0.0.1",
+  "description": "Simple nodejs http server",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "ts-node ./run.ts",
+    "build": "rm -rf ./dist && tsc ./src/server.ts -outDir ./dist"
+  },
+  "author": "Henrik Olofsson",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.5.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
